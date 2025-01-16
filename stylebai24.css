@@ -1,0 +1,12 @@
+body {
+  background-image: url(./img/hinhnen.jpg);
+}
+h2 {
+  /* opacity: 0; */
+  visibility: hidden;
+  /* display: none; */
+  background-color: blue;
+}
+span {
+  visibility: visible;
+}
