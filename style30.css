@@ -4,3 +4,9 @@ div > p {
 .loichuc p {
   font-size: 40px;
 }
+h1 + h2 {
+  color: orange;
+}
+.demo.demo2 + h3 {
+  color: red;
+}
