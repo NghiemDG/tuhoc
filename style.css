@@ -12,3 +12,14 @@ h1 {
   /* cỡ chữ */
   font-size: 18px;
 }
+[title*="tuhoc.cc"] {
+  color: red;
+}
+/* .di_chuot:hover {
+  color: red;
+  font-size: 30px;
+} */
+.di_chuot:active {
+  color: red;
+  font-size: 30px;
+}
