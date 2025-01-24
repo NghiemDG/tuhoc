@@ -1,0 +1,21 @@
+/* p:first-child {
+  color: red;
+  font-size: large;
+}
+p:last-child {
+  color: brown;
+  font-size: xx-large;
+} */
+/* Chọn con thứ n */
+/* p:nth-child(2) {
+  color: pink;
+  font-size: x-large;
+} */
+/* p:nth-child(3n + 1) {
+  color: red;
+  font-size: 50px;
+} */
+p:nth-last-child(2) {
+  color: red;
+  font-size: 50px;
+}

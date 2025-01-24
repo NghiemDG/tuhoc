@@ -1,0 +1,23 @@
+/* .top:not(:first-of-type) {
+  background-color: green;
+} */
+/* universal selector */
+* {
+  color: red !important;
+}
+/* element selector */
+h1 {
+  color: beige;
+  background-color: black;
+  width: 200px;
+  height: 300px;
+  border-top: 10px solid blue;
+}
+/* class - pseudo class selector */
+.demo {
+  color: yellow;
+}
+/* id selector */
+#theh1 {
+  color: blue;
+}

@@ -23,3 +23,16 @@ h1 {
   color: red;
   font-size: 30px;
 }
+.div_elm:empty {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+.div_elm {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+h2:target {
+  color: blue;
+}
