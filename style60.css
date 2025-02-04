@@ -1,3 +1,37 @@
 body {
   font-family: roboto;
+  line-height: 1.5;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 10px;
+  /* bẻ dòng whitespace */
+  white-space: none;
+  text-shadow: -10px 10px 5px #aaa;
+}
+.box {
+  width: 400px;
+  height: 220px;
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #af0202;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

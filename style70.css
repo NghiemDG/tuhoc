@@ -1,0 +1,12 @@
+.box {
+  height: 100vh;
+  /* chèn hình nền */
+  background-image: url(./img/hinhnen2.jpg);
+  /* bỏ hình nền */
+  /* background-image: none; */
+  /* Không lặp lại  */
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-size: 100%;
+}
