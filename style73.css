@@ -1,0 +1,17 @@
+.box {
+  height: 100px;
+  margin-top: 10px;
+}
+.box1 {
+  background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(0, 0, 255));
+}
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(to left, red, blue);
+}
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0) 50%, blue);
+}
